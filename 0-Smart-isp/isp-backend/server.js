@@ -74,18 +74,20 @@ app.get("/api/collectors", (req, res) => {
 
 // 🧩 Add or update collector
 app.post("/api/collectors", (req, res) => {
-  const { name, town, activeClients, lastCollectionDate, performanceScore, coords } = req.body;
-  
-  if (!name || !coords) {
-    return res.status(400).json({ error: "Name and coordinates required" });
+  const { name, town, activeClients, lastCollectionDate, performanceScore, coords, password } = req.body;
+
+  if (!name || !coords || !password) {
+    return res.status(400).json({ error: "Name, coordinates and password are required" });
   }
 
   let collectors = loadCollectors();
   let collector = collectors.find((c) => c.name === name);
-  
+
   if (collector) {
-    Object.assign(collector, { town, activeClients, lastCollectionDate, performanceScore, coords });
+    // Update existing collector
+    Object.assign(collector, { town, activeClients, lastCollectionDate, performanceScore, coords, password });
   } else {
+    // Add new collector
     collectors.push({
       id: Date.now(),
       name,
@@ -94,12 +96,14 @@ app.post("/api/collectors", (req, res) => {
       lastCollectionDate: lastCollectionDate || new Date().toISOString().split('T')[0],
       performanceScore: performanceScore || 0,
       coords,
+      password, // <-- store password
     });
   }
-  
+
   saveCollectors(collectors);
   res.json({ message: "Collector saved", collectors });
 });
+
 
 // 🧩 Get all subscribers
 app.get("/api/subscribers", (req, res) => {
