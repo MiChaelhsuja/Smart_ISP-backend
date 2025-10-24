@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1761258986827,
+    "name": "Nigga man",
+    "town": "Dagupan",
+    "activeClients": 50000,
+    "lastCollectionDate": "2026-01-02",
+    "performanceScore": 0,
+    "coords": {
+      "lat": 3,
+      "lng": 3
+    }
+  },
+  {
+    "id": 1761259054775,
+    "name": "BUMIBIRA NG BADJAO",
+    "town": "Cebu",
+    "activeClients": 1000000,
+    "lastCollectionDate": "2026-10-02",
+    "performanceScore": 0,
+    "coords": {
+      "lat": 5,
+      "lng": 5
+    }
+  },
+  {
+    "id": 1761315316182,
+    "name": "Michael",
+    "town": "San Fabian",
+    "activeClients": 0,
+    "lastCollectionDate": "2025-11-02",
+    "performanceScore": 0,
+    "coords": {
+      "lat": 5,
+      "lng": 5
+    }
+  }
+]

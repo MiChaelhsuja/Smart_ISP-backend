@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1761256499413,
+    "name": "Michael",
+    "plan": "Premium",
+    "town": "Rosario",
+    "serial": "107",
+    "paymentStatus": "Paid",
+    "routerStatus": "Online",
+    "lastPaymentDate": "2025-08-02",
+    "active": true
+  },
+  {
+    "id": 1761257023770,
+    "name": "Boss",
+    "plan": "Standard",
+    "town": "Dagupan",
+    "serial": "108",
+    "paymentStatus": "Paid",
+    "routerStatus": "Online",
+    "lastPaymentDate": "2025-08-02",
+    "active": true
+  },
+  {
+    "id": 1761257626435,
+    "name": "Uncle Nigga",
+    "plan": "Standard",
+    "town": "Rosario",
+    "serial": "109",
+    "paymentStatus": "Paid",
+    "routerStatus": "Online",
+    "lastPaymentDate": "2025-08-02",
+    "active": true
+  },
+  {
+    "id": 1761257706377,
+    "name": "Adolf Hitler",
+    "plan": "Standard",
+    "town": "Argentina",
+    "serial": "911",
+    "paymentStatus": "Paid",
+    "routerStatus": "Offline",
+    "lastPaymentDate": "1945-08-02",
+    "active": true
+  },
+  {
+    "id": 1761315226991,
+    "name": "James",
+    "plan": "Standard",
+    "town": "Mangaldan",
+    "serial": "110",
+    "paymentStatus": "Paid",
+    "routerStatus": "Online",
+    "lastPaymentDate": "2026-06-02",
+    "active": true
+  }
+]
