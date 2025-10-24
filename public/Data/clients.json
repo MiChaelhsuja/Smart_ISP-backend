@@ -1,0 +1,26 @@
+[
+  {
+    "name": "John Doe",
+    "town": "San Fernando",
+    "plan": "Fiber 50Mbps",
+    "paymentStatus": "Paid",
+    "routerStatus": "Online",
+    "lastPaymentDate": "2025-10-10"
+  },
+  {
+    "name": "Jane Smith",
+    "town": "Angeles",
+    "plan": "Fiber 100Mbps",
+    "paymentStatus": "Pending",
+    "routerStatus": "Offline",
+    "lastPaymentDate": "2025-09-29"
+  },
+  {
+    "name": "Alex Cruz",
+    "town": "Mabalacat",
+    "plan": "Fiber 30Mbps",
+    "paymentStatus": "Paid",
+    "routerStatus": "Online",
+    "lastPaymentDate": "2025-10-08"
+  }
+]

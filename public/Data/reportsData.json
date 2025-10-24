@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "client": "John Doe",
+    "plan": "Premium",
+    "status": "Active",
+    "date": "2025-10-01"
+  },
+  {
+    "id": 2,
+    "client": "Jane Smith",
+    "plan": "Basic",
+    "status": "Inactive",
+    "date": "2025-10-05"
+  },
+  {
+    "id": 3,
+    "client": "Mark Lee",
+    "plan": "Standard",
+    "status": "Active",
+    "date": "2025-09-28"
+  }
+]

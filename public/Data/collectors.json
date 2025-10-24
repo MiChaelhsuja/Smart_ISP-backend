@@ -1,0 +1,26 @@
+[
+  {
+    "name": "John Dela Cruz",
+    "town": "Malolos",
+    "activeClients": 34,
+    "lastCollectionDate": "2025-10-05",
+    "performanceScore": 92,
+    "coords": { "lat": 14.8441, "lng": 120.8106 }
+  },
+  {
+    "name": "Maria Santos",
+    "town": "Guiguinto",
+    "activeClients": 29,
+    "lastCollectionDate": "2025-10-07",
+    "performanceScore": 88,
+    "coords": { "lat": 14.8333, "lng": 120.8833 }
+  },
+  {
+    "name": "Pedro Cruz",
+    "town": "Plaridel",
+    "activeClients": 40,
+    "lastCollectionDate": "2025-10-09",
+    "performanceScore": 95,
+    "coords": { "lat": 14.8888, "lng": 120.8577 }
+  }
+]

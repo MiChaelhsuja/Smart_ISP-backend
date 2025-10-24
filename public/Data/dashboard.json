@@ -1,0 +1,30 @@
+{
+  "stats": {
+    "activeUsers": 120,
+    "overdueAccounts": 15,
+    "disconnectedAccounts": 8,
+    "collectorPerformance": "95%"
+  },
+  "activeDevicesData": [
+    { "name": "Mon", "value": 40 },
+    { "name": "Tue", "value": 45 },
+    { "name": "Wed", "value": 50 },
+    { "name": "Thu", "value": 47 },
+    { "name": "Fri", "value": 55 },
+    { "name": "Sat", "value": 60 },
+    { "name": "Sun", "value": 65 }
+  ],
+  "collectionsData": [
+    { "name": "Week 1", "value": 4000 },
+    { "name": "Week 2", "value": 4800 },
+    { "name": "Week 3", "value": 4600 },
+    { "name": "Week 4", "value": 5200 }
+  ],
+  "activityLogs": [
+    { "icon": "User", "message": "New client registered", "time": "2 hours ago" },
+    { "icon": "Router", "message": "Router installed in Malolos", "time": "5 hours ago" },
+    { "icon": "DollarSign", "message": "Payment received from Maria Santos", "time": "8 hours ago" },
+    { "icon": "ClipboardList", "message": "Monthly report generated", "time": "Yesterday" },
+    { "icon": "Wrench", "message": "Maintenance completed in Plaridel", "time": "2 days ago" }
+  ]
+}
