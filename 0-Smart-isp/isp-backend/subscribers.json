@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "plan": "Fiber 100Mbps",
+    "town": "San Fabian",
+    "serial": "104",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Jane Cruz",
+    "plan": "Fiber 50Mbps",
+    "town": "Manaoag",
+    "serial": "105",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Arenas Jvirgin",
+    "plan": "Fiber 50Mbps",
+    "town": "Manaoag",
+    "serial": "106",
+    "active": true
+  }
+]
